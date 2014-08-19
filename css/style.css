@@ -1,0 +1,97 @@
+/* universal styles */
+
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+    background:#106189;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    color:#f9f9f9;
+    font-family: 'Pacifico', cursive;
+    font-size:80px;
+    margin:30px 0px 60px 0px;
+    text-align:center;
+    text-shadow:0px 1px 1px #343434;
+}
+h2 {
+    color:#343434;
+    font-size:30px;
+    margin:0px 0px 20px 0px;
+}
+h2.download {
+    margin:40px 0px 20px 0px;
+}
+.last {
+    margin:40px 0px;
+}
+p, ol li {
+    color:#343434;
+    font-size:14px;
+    line-height:24px;
+    margin:0px 0px 10px 0px;
+    padding:0;
+}
+ol li {
+    color:#343434;
+    font-size:14px;
+    line-height:24px;
+    margin:0px 0px 10px 20px;
+    padding:0;
+}
+code {
+    color:#121212;
+}
+.button {
+    border:1px solid #343434;
+    color:#343434;
+    font-size:20px;
+    line-height:50px;
+    padding:20px 60px;
+    text-decoration:none;
+}
+.button:hover {
+    border:1px solid #1abc9c;
+}
+
+/* grid system styles */
+
+.grid {
+    border:1px solid #343434;
+    height:40px;
+    text-align:center;
+}
+.grid p {
+    line-height:40px;
+}
+
+.footer {
+    border-top:1px solid #343434;
+    height:auto;
+    margin:30px 0px 0px 0px;
+    padding:10px 0px;
+}
+.footer p {
+    text-align:center;
+}
+.footer a {
+    color:#343434;
+    text-decoration:none;
+}
+.footer a:hover {
+    text-decoration:underline;
+}
+span {
+    color:#d00d1e;
+}
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+
+ h1 {
+    font-size:40px;
+    }
+    
+}

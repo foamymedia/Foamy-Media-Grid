@@ -1,0 +1,193 @@
+/*  Foamy Grid System
+	Created by Foamy Media Web Design Stoke on Trent = www.foamymedia.com
+	You may use this grid for your projects as you wish
+	
+	v3.0.0 - released 19th August 2014
+	License: none (public domain)
+
+ */
+
+html, body, * {
+    margin:0;
+	padding:0;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*////////////////////////////////////////////////////
+	///////  FULL WIDTH STYLES APPLY TO ALL DEVICES/////////*/
+	
+.full-width {
+    box-sizing: border-box;
+	display:block;
+	float:left;
+	width:100%;	
+}
+
+
+/*//////////////////////////////////////////////////
+	/// LARGE DESKTOP SIZES - 1440 PX GRID //////////////*/
+
+
+.container { 
+	margin:0 auto;
+    overflow:hidden;
+	width:1440px;
+}
+
+.one 	{ float:left; margin:5px 15px; width:90px; box-sizing: border-box;}
+.two 	{ float:left; margin:5px 15px; width:210px; box-sizing: border-box;}
+.three 	{ float:left; margin:5px 15px; width:330px; box-sizing: border-box;}
+.four	{ float:left; margin:5px 15px; width:450px; box-sizing: border-box;}
+.five 	{ float:left; margin:5px 15px; width:570px; box-sizing: border-box;}
+.six 	{ float:left; margin:5px 15px; width:690px; box-sizing: border-box;}
+.seven 	{ float:left; margin:5px 15px; width:810px; box-sizing: border-box;}
+.eight 	{ float:left; margin:5px 15px; width:910px; box-sizing: border-box;}
+.nine 	{ float:left; margin:5px 15px; width:1050px; box-sizing: border-box;}
+.ten 	{ float:left; margin:5px 15px; width:1170px; box-sizing: border-box;}
+.eleven { float:left; margin:5px 15px; width:1290px; box-sizing: border-box;}
+.twelve { float:left; margin:5px 15px; width:1410px; box-sizing: border-box;}
+
+.onethird	{ float:left; margin:5px 15px; width:450px; box-sizing: border-box;}
+.twothirds	{ float:left; margin:5px 15px; width:930px; box-sizing: border-box;}
+.full 		{ float:left; margin:5px 15px; width:1410px; box-sizing: border-box;}
+.quarter	{ float:left; margin:5px 15px; width:330px; box-sizing: border-box;}
+
+
+
+/*//////////////////////////////////////////////////
+	/// DESKTOP SIZES - 1200PX GRID //////////////*/
+
+@media only screen and (min-width : 1200px) and (max-width : 1439px) {
+
+
+.container { 
+	width:1200px;
+}
+
+.one 	{ width:70px;}
+.two 	{ width:170px;}
+.three 	{ width:270px;}
+.four	{ width:370px;}
+.five 	{ width:470px;}
+.six 	{ width:570px;}
+.seven 	{ width:670px;}
+.eight 	{ width:770px;}
+.nine 	{ width:870px;}
+.ten 	{ width:970px;}
+.eleven { width:1070px;}
+.twelve { width:1170px;}
+
+.onethird	{ width:370px;}
+.twothirds	{ width:770px;}
+.full 		{ width:1170px;}
+.quarter	{ width:270px;}
+
+}
+
+
+
+/*//////////////////////////////////////////////////
+	/// DESKTOP SIZES - 960PX GRID //////////////*/
+
+@media only screen and (min-width : 960px) and (max-width : 1199px) {
+
+
+.container { 
+	width:960px;
+}
+
+.one 	{ width:50px;}
+.two 	{ width:130px;}
+.three 	{ width:210px;}
+.four	{ width:290px;}
+.five 	{ width:370px;}
+.six 	{ width:450px;}
+.seven 	{ width:530px;}
+.eight 	{ width:610px;}
+.nine 	{ width:690px;}
+.ten 	{ width:770px;}
+.eleven { width:850px;}
+.twelve { width:930px;}
+
+.onethird	{ width:290px;}
+.twothirds	{ width:610px;}
+.full 		{ width:930px;}
+.quarter	{ width:210px;}
+
+}
+
+
+
+/*//////////////////////////////////////////////////
+	/// TABLET MODE //////////////*/
+
+@media only screen and (min-width : 768px) and (max-width : 959px) {
+	
+
+    
+.container { 
+	width:768px;
+}
+
+.one 	{ margin:5px 10px; width:44px;}
+.two 	{ margin:5px 10px; width:108px;}
+.three 	{ margin:5px 10px; width:172px;}
+.four	{ margin:5px 10px; width:236px;}
+.five 	{ margin:5px 10px; width:300px;}
+.six 	{ margin:5px 10px; width:364px;}
+.seven 	{ margin:5px 10px; width:428px;}
+.eight 	{ margin:5px 10px; width:492px;}
+.nine 	{ margin:5px 10px; width:556px;}
+.ten 	{ margin:5px 10px; width:620px;}
+.eleven { margin:5px 10px; width:684px;}
+.twelve { margin:5px 10px; width:748px;}
+
+.onethird	{ margin:5px 10px; width:236px;}
+.twothirds	{ margin:5px 10px; width:492px;}
+.full 		{ margin:5px 10px; width:748px;}
+.quarter	{ margin:5px 10px; width:172px;}
+	
+}
+
+
+
+/*//////////////////////////////////////////////////
+	/// MOBILE MODE //////////////*/
+
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+
+
+.container { 
+	margin:0;
+	padding:0% 2%;
+	width:96%;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve,
+.onethird,
+.twothirds,
+.quarter,
+.full 	{ display:block; margin:1% 0%; width:100%;}
+	
+}
+
+
+/*///////////////////////
+	/////// CLEAR FIX ///////////*/
+
+.clear {
+	clear:both;	
+}
+
+
