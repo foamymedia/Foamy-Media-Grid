@@ -2,7 +2,7 @@
 	Created by Foamy Media Web Design Stoke on Trent = www.foamymedia.com
 	You may use this grid for your projects as you wish
 	
-	v3.0.0 - released 19th August 2014
+	v4.0.0 - released 3rd September 2014
 	License: none (public domain)
 
  */
@@ -31,58 +31,26 @@ html, body, * {
 .container { 
 	margin:0 auto;
     overflow:hidden;
-	width:1440px;
-}
-
-.one 	{ float:left; margin:5px 15px; width:90px; box-sizing: border-box;}
-.two 	{ float:left; margin:5px 15px; width:210px; box-sizing: border-box;}
-.three 	{ float:left; margin:5px 15px; width:330px; box-sizing: border-box;}
-.four	{ float:left; margin:5px 15px; width:450px; box-sizing: border-box;}
-.five 	{ float:left; margin:5px 15px; width:570px; box-sizing: border-box;}
-.six 	{ float:left; margin:5px 15px; width:690px; box-sizing: border-box;}
-.seven 	{ float:left; margin:5px 15px; width:810px; box-sizing: border-box;}
-.eight 	{ float:left; margin:5px 15px; width:910px; box-sizing: border-box;}
-.nine 	{ float:left; margin:5px 15px; width:1050px; box-sizing: border-box;}
-.ten 	{ float:left; margin:5px 15px; width:1170px; box-sizing: border-box;}
-.eleven { float:left; margin:5px 15px; width:1290px; box-sizing: border-box;}
-.twelve { float:left; margin:5px 15px; width:1410px; box-sizing: border-box;}
-
-.onethird	{ float:left; margin:5px 15px; width:450px; box-sizing: border-box;}
-.twothirds	{ float:left; margin:5px 15px; width:930px; box-sizing: border-box;}
-.full 		{ float:left; margin:5px 15px; width:1410px; box-sizing: border-box;}
-.quarter	{ float:left; margin:5px 15px; width:330px; box-sizing: border-box;}
-
-
-
-/*//////////////////////////////////////////////////
-	/// DESKTOP SIZES - 1200PX GRID //////////////*/
-
-@media only screen and (min-width : 1200px) and (max-width : 1439px) {
-
-
-.container { 
 	width:1200px;
 }
 
-.one 	{ width:70px;}
-.two 	{ width:170px;}
-.three 	{ width:270px;}
-.four	{ width:370px;}
-.five 	{ width:470px;}
-.six 	{ width:570px;}
-.seven 	{ width:670px;}
-.eight 	{ width:770px;}
-.nine 	{ width:870px;}
-.ten 	{ width:970px;}
-.eleven { width:1070px;}
-.twelve { width:1170px;}
+.one 	{ float:left; margin:5px 15px; width:70px; box-sizing: border-box;}
+.two 	{ float:left; margin:5px 15px; width:170px; box-sizing: border-box;}
+.three 	{ float:left; margin:5px 15px; width:270px; box-sizing: border-box;}
+.four	{ float:left; margin:5px 15px; width:370px; box-sizing: border-box;}
+.five 	{ float:left; margin:5px 15px; width:470px; box-sizing: border-box;}
+.six 	{ float:left; margin:5px 15px; width:570px; box-sizing: border-box;}
+.seven 	{ float:left; margin:5px 15px; width:670px; box-sizing: border-box;}
+.eight 	{ float:left; margin:5px 15px; width:770px; box-sizing: border-box;}
+.nine 	{ float:left; margin:5px 15px; width:870px; box-sizing: border-box;}
+.ten 	{ float:left; margin:5px 15px; width:970px; box-sizing: border-box;}
+.eleven { float:left; margin:5px 15px; width:1070px; box-sizing: border-box;}
+.twelve { float:left; margin:5px 15px; width:1170px; box-sizing: border-box;}
 
-.onethird	{ width:370px;}
-.twothirds	{ width:770px;}
-.full 		{ width:1170px;}
-.quarter	{ width:270px;}
-
-}
+.onethird	{ float:left; margin:5px 15px; width:370px; box-sizing: border-box;}
+.twothirds	{ float:left; margin:5px 15px; width:770px; box-sizing: border-box;}
+.full 		{ float:left; margin:5px 15px; width:1170px; box-sizing: border-box;}
+.quarter	{ float:left; margin:5px 15px; width:270px; box-sizing: border-box;}
 
 
 
